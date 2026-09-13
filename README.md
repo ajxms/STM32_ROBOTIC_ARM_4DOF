@@ -7,7 +7,7 @@ This project is a custom-engineered 4-Degrees-of-Freedom (DOF) robotic arm built
 
 The goal was to build a complete hardware abstraction layer and a custom Cartesian Inverse Kinematics (IK) engine to achieve smooth, linear pick-and-place tracking.
 
-**Watch the full video demonstration on my LinkedIn:** [Insert LinkedIn Link Here]
+**Watch the full video demonstration on my LinkedIn:** 
 
 ---
 
