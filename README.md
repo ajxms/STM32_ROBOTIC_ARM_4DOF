@@ -1,7 +1,6 @@
 # STM32 4-DOF Robotic Arm: Custom Inverse Kinematics & Bare-Metal C
 
 ![Robotic Arm Tracking Demo](Images/demo.gif)
-*(Replace `Images/demo.gif` with your 5-second tracking sweep GIF)*
 
 ## Project Overview
 This project is a custom-engineered 4-Degrees-of-Freedom (DOF) robotic arm built entirely from scratch. Rather than relying on high-level microcontrollers (like Arduino) or pre-built kinematic libraries, this arm is driven by **bare-metal C on an STM32 microcontroller**. 
@@ -20,9 +19,6 @@ To move the arm to specific `(X, Y, Z)` coordinates, the software flattens the 3
 *   **Shoulder & Elbow:** Implements the **Law of Cosines** to calculate the required angles to reach the hypotenuse distance to the target coordinate.
 *   **Dynamic Pitch:** The wrist angle is decoupled and interpolated separately, allowing the arm to "present" the payload at specific angles during transit.
 
-![Inverse Kinematics Math Notes](Images/math_notes.jpg)
-*(Replace `Images/math_notes.jpg` with a clear photo of your handwritten trigonometric calculations)*
-
 ### 2. Hardware Synchronization & Linear Tracking
 The biggest challenge in servo robotics is mitigating jitter and non-linear arcs. 
 *   **PWM Refresh Locking:** The PCA9685 driver expects a 50Hz signal (20ms). The `HAL_Delay` inside the interpolation loop is dynamically reduced to exactly compensate for the mathematical execution time and the 100kHz I2C transmission overhead, eliminating dropped frames.
@@ -38,8 +34,6 @@ The biggest challenge in servo robotics is mitigating jitter and non-linear arcs
 *   **Power:** [Insert your power supply details here, e.g., 5V 3A external bench supply]
 
 ![Wiring Schematic](Images/wiring_diagram.jpg)
-*(Replace `Images/wiring_diagram.jpg` with a photo or screenshot of your wiring diagram)*
-
 ---
 
 ## Mechanical Design & Fabrication
