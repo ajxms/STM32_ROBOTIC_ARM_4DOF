@@ -1,6 +1,6 @@
 # STM32 4-DOF Robotic Arm: Custom Inverse Kinematics & Bare-Metal C
 
-![Robotic Arm Tracking Demo](Robotic_Arm_Demo_Pick.gif)
+![Robotic Arm Tracking Demo](Images/Robotic_Arm_Demo_Pick.gif)
 
 ## Project Overview
 This project is a custom-engineered 4-Degrees-of-Freedom (DOF) robotic arm built entirely from scratch. Rather than relying on high-level microcontrollers (like Arduino) or pre-built kinematic libraries, this arm is driven by **bare-metal C on an STM32 microcontroller**. 
