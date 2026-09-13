@@ -31,9 +31,9 @@ The biggest challenge in servo robotics is mitigating jitter and non-linear arcs
 * **Microcontroller:** STM32 Nucleo (STM32F411)
 * **Servo Driver:** PCA9685 (communicating via I2C at 100kHz)
 * **Actuators:** 5x Standard Hobby Servos
-* **Power:** [Insert your power supply details here, e.g., 5V 3A external bench supply]
+* **Power:** 5V 3A Power Bench Suppy
 
-![Wiring Schematic](Images/wiring_diagram.jpg)
+![Wiring Schematic](Images/wiring_diagram.svg)
 
 ---
 
