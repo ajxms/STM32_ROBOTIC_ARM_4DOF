@@ -31,7 +31,7 @@ The biggest challenge in servo robotics is mitigating jitter and non-linear arcs
 * **Microcontroller:** STM32 Nucleo (STM32F411)
 * **Servo Driver:** PCA9685 (communicating via I2C at 100kHz)
 * **Actuators:** 5x Standard Hobby Servos
-* **Power:** 5V 3A Power Bench Suppy
+* **Power:** 5V 3A Power Bench Supply
 
 ![Wiring Schematic](Images/Wiring_diagrams.png)
 
@@ -54,7 +54,7 @@ All of my original mechanical files are open-source and provided in multiple for
 
 * **/Firmware:** The complete STM32CubeIDE project (bare-metal C, HAL configuration).
 * **/CAD_and_Hardware:** Fusion 360 models, STEP files, and 3D printing assets.
-* **/Images:** Media, GIFs, wiring diagrams, and math notes used in this documentation.
+* **/Images:** Media, GIFs and wiring diagrams used in this documentation.
 
 ---
 
