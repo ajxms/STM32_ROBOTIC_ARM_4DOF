@@ -33,7 +33,7 @@ The biggest challenge in servo robotics is mitigating jitter and non-linear arcs
 * **Actuators:** 5x Standard Hobby Servos
 * **Power:** 5V 3A Power Bench Suppy
 
-![Wiring Schematic](Images/wiring_diagram.svg)
+![Wiring Schematic](Images/Robotic_Arm_Schematic.svg)
 
 ---
 
